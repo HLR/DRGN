@@ -1,7 +1,7 @@
 # DRGN
 COLING 2022: Dynamic Relevance Graph Network for Knowledge-Aware Question Answering
 
-## Usage
+## How to train the code?
 ### Install Dependency files
 
 - Python == 3.7

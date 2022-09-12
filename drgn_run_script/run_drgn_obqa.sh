@@ -41,6 +41,6 @@ for seed in 0; do
       --dev_statements   /localscratch/chen.zheng/data/drgn/data/${dataset}/statement/dev.statement.jsonl \
       --test_statements  /localscratch/chen.zheng/data/drgn/data/${dataset}/statement/test.statement.jsonl \
       --save_model \
-      --save_dir /data/hlr/chenzheng/data/qa_dr_gat/${save_dir_pref}/${dataset}/enc-${model}__k${k}__gnndim${gnndim}__bs${bs}__seed${seed}__${dt} $args \
+      --save_dir /localscratch/chen.zheng/data/drgn/${save_dir_pref}/${dataset}/enc-${model}__k${k}__gnndim${gnndim}__bs${bs}__seed${seed}__${dt} $args \
   > train_${dataset}__enc-${model}__k${k}__gnndim${gnndim}__bs${bs}__seed${seed}__${dt}.log.txt
 done
